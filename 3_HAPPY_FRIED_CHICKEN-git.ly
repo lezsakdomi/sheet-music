@@ -24,6 +24,7 @@ end = \relative c {
 }
 
 music = {
+  \clef F \key es \major
   \int \A \B \A \end
 }
 
