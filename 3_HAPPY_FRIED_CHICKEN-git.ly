@@ -14,12 +14,12 @@ intChords = \relative c' {
 }
 
 A = \relative c {
-  \repeat unfold 4 { es4 r b r |} \break
+  \repeat unfold 6 { es4 r b r |} \break
   \repeat volta 2 { as2 es4 as | es2 b'4 es, | } \alternative { {as2 b | es,2 b'4 es |} {fes,2 fes | b4 r b r |} } \break
 }
 
 AChords = \transpose b h \relative c {
-  \repeat unfold 4 { es4 r b r |} \break
+  \repeat unfold 6 { es4 r b r |} \break
   \repeat volta 2 { as2 es4 as | es2 b'4 es, | } \alternative { {as2 b | es,2 b'4 es |} {fes,2 fes | b4 r b r |} } \break
 }
 
